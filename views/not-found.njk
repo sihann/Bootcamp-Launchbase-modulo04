@@ -1,0 +1,16 @@
+{% extends "layout.njk" %}
+
+{% block head %}
+    <title>Página não encontrada</title>
+{% endblock %}
+
+{% block style %}
+    <link rel="stylesheet" href="/404.css">
+{% endblock %}
+
+{% block section %}
+<div id="container-error">
+    <img src="/assets/404error.svg" alt="Página não encontrada">
+    <h1>Opss! Página não encontrada</h1>
+</div>
+{% endblock %}

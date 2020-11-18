@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        {% block head %}
+        <title>Class Manager</title>
+        {% endblock %}
+        <link rel="stylesheet" href="/layout.css">
+        <link rel="icon" href="/assets/favicon.ico" type="image/x-icon"/>
+        <script src="https://kit.fontawesome.com/ad19321b82.js" crossorigin="anonymous"></script>
+        {% block style %}
+        {% endblock %}
+    </head>
+
+    <body>
+
+        <header>
+            <div id="menu">
+                <div class="logo">
+                    <img src="/assets/logo-rocketseat.svg" alt="Class Manager">
+                </div>
+                <div class="links">
+                    <a href="/">Teachers</a>
+                    <a href="/students">Students</a>
+                </div>
+            </div>  
+        </header>
+
+        {% block section %}
+        {% endblock %} 
+      
+    </body>
+</html>
