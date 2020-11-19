@@ -15,7 +15,7 @@
 
 - Nessa primeira etapa, você deve criar um header com dois links: Teachers e Students
 
-##  :rocket: Desafio 4-2  :construction:
+##  :rocket: Desafio 4-2
 
 - Nessa etapa você deve utilizar o browser-sync e criar um card para apresentação das informações do professor.
 

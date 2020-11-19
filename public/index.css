@@ -1,0 +1,70 @@
+/*--- card ---*/
+.card {
+    background-color: var(--color-box);
+    width: 800px;
+    min-height: 450px;
+    margin: 10vh auto;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    box-shadow: 0 2px 6px -2px rgba(0, 0, 0, 0.2);
+
+    opacity: 0;
+    animation-name: up;
+    animation-duration: 200ms;
+    animation-fill-mode: forwards; /* animação termina no to*/
+    animation-timing-function: ease-out;
+    animation-delay: 1s;
+}
+
+@keyframes up {
+    from {
+        transform: translateY(15px);
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/*-- details --*/
+.details {
+    padding: 32px;
+}
+.details .item {
+    border-bottom: 1px solid rgba(131, 129, 129, 0.103);
+    padding: 16px 0;
+}
+.details .item:last-child { /* estilizar apenas o ultimo elemento */
+    border: none;
+}
+.details h3,
+.details .item div:nth-child(1) { /* estilizar a primeira div */
+    color: var(--color-p);
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+.details .item div:nth-child(2) { /* estilizar a primeira div */
+    color: var(--color-linkhover);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.details h3 {
+    font-weight: bold;
+    color: var(--color-h1);
+}
+
+.details .item span {
+    padding: 8px 16px;
+    background-color: var(--color-details);
+    color: var(--color-h1);
+    border-radius: 16px;
+    margin-right: 4px;
+    margin-top: 8px;
+    display: inline-block;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 12px;
+}
