@@ -1,0 +1,46 @@
+/* FORMULÁRIO */
+
+input {
+    width: 100%;
+    outline: none;
+    background-color: var(--color-box);
+    color: var(--color-linkhover);
+    font-weight: bold;
+    font-size: 16px;
+}
+
+input[type="radio"] {
+    width: initial;
+    margin-right: 2px;
+}
+
+input::placeholder {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--color-linkhover);
+}
+
+select {
+    background-color: var(--color-box);
+    color: var(--color-linkhover);
+    font-size: 16px;
+}
+
+button[type="submit"],
+a.button {
+    padding: 8px 32px;
+    background-color: var(--color-details);
+    color: var(--color-h1);
+    border-radius: 4px;
+    margin-top: 32px;
+    width: 100%;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+a.button {
+    display: block;
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+}

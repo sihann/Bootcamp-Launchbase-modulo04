@@ -1,0 +1,23 @@
+{
+  "teachers": [
+    {
+      "id": 1,
+      "name": "Mariana Campos",
+      "birth": 1005436800000,
+      "level": "ESC",
+      "classroom": "presential",
+      "subject": "Química, Física",
+      "created_at": 1610985426656
+    },
+    {
+      "id": 2,
+      "avatar_url": "https://source.unsplash.com/collection/1544061/500x500",
+      "name": "Mariana Campos",
+      "birth": 753408000000,
+      "level": "M",
+      "classroom": "distance",
+      "subject": "História, Literatura, Português",
+      "created_at": 1611000719265
+    }
+  ]
+}

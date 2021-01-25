@@ -17,12 +17,12 @@
 
 ##  :rocket: Desafio 4-2
 
-- Nessa etapa você deve utilizar o browser-sync e criar um card para apresentação das informações do professor.
+- Nessa etapa você deve utilizar o Browser-sync e criar um card para apresentação das informações do professor.
 
 
-##  :rocket: Desafio 4-3  :construction:
+##  :rocket: Desafio 4-3 
 
-- Nessa etapa você deve criar um formulário de cadastro do professor e uma rota do tipo post que irá realizar as validações e salvar os dados enviados.
+- Nessa etapa você deve criar um formulário de cadastro do professor e uma rota do tipo <code>POST</code> que irá realizar as validações e salvar os dados enviados.
 
 ##  :rocket: Desafio 4-4  :construction:
 
